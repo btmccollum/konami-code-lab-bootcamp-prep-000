@@ -20,7 +20,7 @@ function init() {
       count++;
       
       if ( count === codes.length ) {
-        alert('This was a triumph!');
+        window.alert('This was a triumph!');
         count = 0;
       }
     } else {
